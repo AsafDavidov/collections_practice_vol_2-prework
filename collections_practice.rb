@@ -40,6 +40,7 @@ end
 
 def merge_data(s_keys,data)
   merged_data = []
+  merged_hash = {}
   s_keys.each do |first_names|
     data.each do |names|
       names.each do |personal_info|
