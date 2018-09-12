@@ -40,11 +40,13 @@ end
 
 def merge_data(s_keys,data)
   merged_data = []
+  merge_hash = {}
   s_keys.each do |first_names|
     data.each do |names|
       names.each do |personal_info|
         #merged_data << personal_info[0]
           if first_names[:first_name] == personal_info[0]
+            
             merged_data << personal_info[1]
           end
       end
