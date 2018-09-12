@@ -40,10 +40,7 @@ end
 
 def merge_data(s_keys,data)
   merged_data = []
-  data.each do |person_data|
-     current_data_key = person_data.keys.find {|element| element== s_keys[:first_name]}
-      merged_data << current_data_key
-  end
+  
   merged_data.flatten
 end
 
