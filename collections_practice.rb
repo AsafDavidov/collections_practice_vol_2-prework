@@ -43,6 +43,7 @@ def merge_data(keys,data)
   keys.each do |key|
     data.each do |name, info|
       if key[:first_name] == name
+        merged_data << info
   merged_data
 end
 
