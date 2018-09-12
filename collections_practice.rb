@@ -42,7 +42,7 @@ def merge_data(keys,data)
   merged_data = []
   keys.each do |key|
     data.each do |name, info|
-      if key[:first]
+      if key[:first_name]
   merged_data
 end
 
