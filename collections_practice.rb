@@ -40,8 +40,9 @@ end
 
 def merge_data(keys,data)
   merged_data = []
-  keys.each
-  
+  keys.each do |key|
+    key[]
+  merged_data
 end
 
 def find_cool(hashes)
