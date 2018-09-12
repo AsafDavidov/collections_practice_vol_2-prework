@@ -46,7 +46,8 @@ def merge_data(s_keys,data)
       names.each do |personal_info|
         #merged_data << personal_info[0]
           if first_names[:first_name] == personal_info[0]
-            merged_hash = {:first_name => personal_info[0], personal_info[1]}
+            merged_hash = personal_info[1]
+            merged_hash[:first_name] => personal_info[0], personal_info[1]}
             merged_data << merged_hash
           end
       end
