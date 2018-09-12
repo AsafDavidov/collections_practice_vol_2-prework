@@ -42,10 +42,12 @@ def merge_data(s_keys,data)
   merged_data = []
   s_keys.each do |first_names|
     data.each do |names|
-      merged_data << names
+      names.each do |personal_info|
+        merged_data << names
       #if names[first_names[:first_name]] == names[index]
        # merged_data << names
       #end
+      end
     end
   end
   merged_data
