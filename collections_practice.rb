@@ -44,7 +44,6 @@ def merge_data(s_keys,data)
     data.keys.find do |name_keys|
       name_keys == key_data[:first_name]
         merged_data << name
-      end
     end
   end
   merged_data.flatten
