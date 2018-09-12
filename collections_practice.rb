@@ -40,7 +40,8 @@ end
 
 def merge_data(s_keys,data)
   merged_data = []
-  
+  s_keys.each do |first_names|
+    data.
   merged_data.flatten
 end
 
