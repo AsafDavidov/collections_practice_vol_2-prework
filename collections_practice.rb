@@ -40,10 +40,10 @@ end
 
 def merge_data(keys,data)
   merged_data = []
-  keys.each do |key|
+  keys.each do |key_data|
     data.each do |name, info|
       merged_data << key[:first_name]
-      merged_data << 
+      merged_data << name
      # if key[:first_name] == name
       #  merged_data << info
       #end
