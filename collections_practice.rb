@@ -41,8 +41,9 @@ end
 def merge_data(s_keys,data)
   merged_data = []
   s_keys.each do |first_names|
-    data.
-  merged_data.flatten
+    data.each do |names, info|
+  
+  merged_data
 end
 
 def find_cool(hashes)
