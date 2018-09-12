@@ -49,7 +49,7 @@ def merge_data(s_keys,data)
       end
     end
   end
-  merged_data
+  merged_data.flatten
 end
 
 def find_cool(hashes)
