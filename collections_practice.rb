@@ -39,7 +39,6 @@ def count_elements(arr)
 end
 
 def merge_data(s_keys,data)
-  second_hash_data
   merged_data = []
   data.each do |names, info|
     merged_data << names[s_keys[:first_name]]
