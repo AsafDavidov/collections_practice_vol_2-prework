@@ -41,7 +41,7 @@ end
 def merge_data(s_keys,data)
   merged_data = []
   data.each do |person_data|
-     current_data_key= person_data.key.find {|element| element== s_keys[:first_name]
+     current_data_key= person_data.key.find {|element| element== s_keys[:first_name]}
         merged_data << current_data_key
     end
   end
