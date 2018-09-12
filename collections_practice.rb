@@ -45,8 +45,7 @@ def merge_data(s_keys,data)
       names.each do |personal_info|
         #merged_data << personal_info[0]
           if first_names[:first_name] == personal_info[0]
-            merged_data << {:first_name => personal_info[0], personal_info[1]}.flatten
-            
+            merged_data << {:first_name => personal_info[0], personal_info[1]}.flatten}
           end
       end
     end
