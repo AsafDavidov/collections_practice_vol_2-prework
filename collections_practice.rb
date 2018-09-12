@@ -42,7 +42,7 @@ def merge_data(s_keys,data)
   merged_data = []
   data.each do |person_data|
     person_data.key.find == s_keys[:first_name]
-        merged_data << 2
+        merged_data << person_data
     end
   end
   merged_data.flatten
