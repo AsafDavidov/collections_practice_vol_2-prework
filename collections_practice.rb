@@ -46,7 +46,7 @@ def merge_data(keys,data)
       #  merged_data << info
       #end
     #end
-    merged_data << key{:first_name
+    merged_data << key[:first_name]
   end
   merged_data
 end
