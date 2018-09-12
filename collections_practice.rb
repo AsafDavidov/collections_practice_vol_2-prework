@@ -39,7 +39,9 @@ def count_elements(arr)
 end
 
 def merge_data(keys,data)
+  merged_data = []
   keys.each
+  
 end
 
 def find_cool(hashes)
